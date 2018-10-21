@@ -1,2 +1,92 @@
-body: {
+body {
+    background: #b08f6b;
+    color: #161616;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 750px;
+}
+
+.about {
+    margin-top: 1em;
+}
+
+span.motto {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+h1 {
+    font: bold 58px/58px "Old Standard TT", serif;
+    margin: 0.1em 0;
+}
+
+h1.small {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    font: normal 28px/28px "Old Standard TT", serif;
+    margin: 0 0 1.8em;
+}
+
+h3 {
+    font: normal 16px/16px "Old Standard TT", serif;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+h4, .apology {
+    font: italic normal 14px/14px "Old Standard TT", serif;
+    margin: 0;
+}
+
+.hr {
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+}
+
+.video-description {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    font: italic normal 14px/14px "Old Standard TT", serif;
+}
+
+.laurel {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+.laurel-info {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.laurel-status {
+    font: bold 16px/16px "Old Standard TT", serif;
+}
+
+#contact {
+    margin-top: 6em;
+    margin-bottom: 2em;
+    font: italic bold 18px/18px "Old Standard TT", serif;
+}
+
+a {
+    color: #4b507d;
+    margin-bottom: 0.2em;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px dotted;
 }
