@@ -62,8 +62,8 @@ h4, .apology {
 }
 
 .video-laurels {
-    /*display: flex;*/
-    /*flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
 }
 
 .laurel {
@@ -71,7 +71,7 @@ h4, .apology {
     justify-content: space-around;
     flex-direction: column;
     vertical-align: top;
-    /*margin-bottom: 2em;*/
+    margin-bottom: 2em;
 }
 
 .laurel-info {
