@@ -61,11 +61,17 @@ h4, .apology {
     width: 70%;
 }
 
+.video-laurels {
+    display: flex;
+    flex-direction: column;
+}
+
 .laurel {
     display: inline-flex;
     justify-content: space-around;
     flex-direction: column;
     vertical-align: top;
+    margin-bottom: 2em;
 }
 
 .laurel-info {
@@ -79,7 +85,7 @@ h4, .apology {
 }
 
 #contact {
-    margin-top: 6em;
+    margin-top: 3em;
     margin-bottom: 2em;
     font: italic bold 18px/18px "Old Standard TT", serif;
 }
