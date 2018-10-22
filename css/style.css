@@ -62,8 +62,8 @@ h4, .apology {
 }
 
 .video-laurels {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
 }
 
 .laurel {
